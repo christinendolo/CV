@@ -48,27 +48,30 @@
     <p>Feel free to reach out and contact me! I'd love to here from you</p>
 
     <form action="https://formsubmit.co/a6ebc0bb3c86193726d9e28ac94f8b91" method="POST">
-      <div class="form-question required">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
+      
+
+      <div class="row  my-4 ">
+        <div class="col-6 required">
+        <label for="fname" class="form-label ">Names:</label>
+        <input type="text" class="form-control col-6" id="fname ">
+      </div>
+      <div class="col-6 required">
+        <label for="email" class="form-label">Email:</label>
+        <input type="text" class="form-control col-6" id="email" placeholder="name@gmail.com">
+      </div>
+      <div class="col-6">
+        <label for="phone" class="form-label">Phone:</label>
+        <input type="number" class="form-control col-6" id="phone">
+      </div>
       </div>
 
-      <div class="form-question required">
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" required />
+      <div class="mb-3 required">
+        <label for="Textarea1" class="form-label">Message:</label>
+        <textarea class="form-control" id="Textarea1" rows="8"></textarea>
       </div>
 
-      <div class="form-question">
-        <label for="phone">Phone</label>
-        <input type="text" id="phone" name="phone" />
-      </div>
-
-      <div class="form-question required">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" rows="5" required></textarea>
-      </div>
-
-      <input type="hidden" name="_next" value="http://127.0.0.1:5500/contact.html">
+      <input type="hidden" name="_next" value="
+      http://127.0.0.1:5500/contact.html">
       <input type="hidden" name="_captcha" value="false">
 
       <button type="submit" id="submit">Submit</button>
