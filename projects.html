@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
-
     <div class="container-fluid p-0">
       <nav
         class="navbar navbar-expand-lg bg-primary-subtle"
@@ -35,14 +33,17 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Home</a
+              >
               <a class="nav-link" href="./cv.html">Cv</a>
-              <a class="nav-link" href="#">projects</a>
+              <a class="nav-link active" href="#">projects</a>
               <a class="nav-link" href="./contact.html">Contact</a>
             </div>
           </div>
         </div>
       </nav>
+    </div>
     <div class="projects-wrapper">
       <div class="hero">
         <img
@@ -54,20 +55,20 @@
           <h1 id="title2">PROJECTS</h1>
         </div>
         <div id="flexbox-container">
-          <div class="item">
+          <a class="item" href="projects/drumkit.html">
             <div id="image">
               <img
-                src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"
+                src="data:image/jpeg;base64,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"
               />
             </div>
-            <h3>CSS</h3>
-          </div>
-          <div class="item">
+            <h3>Drum kit</h3>
+          </a>
+          <a class="item" href="projects/shiftkey.html">
             <img
-              src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLm97LMpBoUnlT-1DqOvVoOiRd_qO-7PkI2duLfBmylA&s"
             />
-            <h3>GitHub</h3>
-          </div>
+            <h3>Shiftkey & checkboxes</h3>
+          </a>
           <div class="item">
             <img src="https://cdn-icons-png.flaticon.com/512/919/919827.png" />
             <h3>HTML</h3>

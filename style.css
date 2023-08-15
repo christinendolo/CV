@@ -56,7 +56,6 @@ h5 {
   margin: 0px;
 }
 
-
 /* Navbar */
 
 /*
@@ -193,6 +192,10 @@ body {
   padding: 0;
 }
 
+.item {
+  text-decoration: none;
+  color: black;
+}
 /*
 .container {
   display: flex;
