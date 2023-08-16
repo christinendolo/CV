@@ -24,17 +24,19 @@
       let count = 0;
       function increament() {
         count = count + 1;
-        totalCount.innerText = count;
+        totalCount.textContent = count;
       }
       increament();
      let countStr = document.getElementById("prevCount")
       
       function save() {
-        let countNo = count + ",";
-        countStr.innerText += countNo;
+        let countNo = count + ", ";
+        countStr.textContent += countNo;
         console.log(count);
         let message= "Successfully saved!"
         alert(message)
+        totalCount.textContent = 0;
+        count = 0;
       }
       
     </script>
