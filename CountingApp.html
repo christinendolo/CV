@@ -15,6 +15,8 @@
     </center>
     <center><button id="save-btn" onclick="save()">Save</button></center>
 
+    <p id="prevCount">Previous entries:</p>
+
     <script>
       totalCount = document.getElementById("school");
       console.log(totalCount);
@@ -25,9 +27,12 @@
         totalCount.innerText = count;
       }
       increament();
-
+     let countStr = document.getElementById("prevCount")
       
       function save() {
+        let countNo = count + ",";
+        countStr.innerText += countNo;
+        console.log(count);
         let message= "Successfully saved!"
         alert(message)
       }

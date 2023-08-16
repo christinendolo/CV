@@ -24,6 +24,11 @@ body{
  button:hover{
    border-radius: 40%;
  }
+ #prevCount{
+   color: white;
+   font-size:40px;
+   background-color: black;
+ }
 
 
 
