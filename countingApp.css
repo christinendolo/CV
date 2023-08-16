@@ -1,0 +1,41 @@
+body{
+    background: url("https://c8.alamy.com/comp/2BMJ7MJ/beautiful-extra-wide-and-large-slow-tornado-panorama-over-scandinavian-forest-and-field-sunny-day-with-very-heavy-dark-clouds-wooden-power-poles-2BMJ7MJ.jpg")
+
+}
+ h1{
+    color:black;
+ }
+ h2{
+    color:black;
+    text-align: center;
+ }
+
+
+ button{
+    padding: 20px;
+    width: 50%;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+ }
+ button:hover{
+   border-radius: 40%;
+ }
+
+
+
+
+
+
+
+ #save-btn{
+    background-color:orange;
+    color: white;
+ }
+ #increament-btn{
+    background-color:brown;
+    color: white;
+ }
